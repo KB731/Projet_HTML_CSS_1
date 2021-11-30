@@ -28,12 +28,13 @@ nav ul::after {
     content: "";
     display: table;
     clear: both;
+
 }
 
 nav a {
     display: block; /*Toute la surface sera cliquable*/
     text-decoration: none;
-    color: black;
+    color: white;
     border-bottom: 2px solid transparent; /*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
     padding: 10px 0; /*Agrandit le menu et espace la bordure du texte*/
 }
@@ -93,32 +94,26 @@ h1, h2, h3 {
 
 .col1 {
     background: #ECECEC;
-    border: 1px solid black;
 }
 
 .col2 {
     background: #b2e3ff;
-    border: 1px solid black;
 }
 
 .col3 {
     background: #ffecb2;
-    border: 1px solid black;
 }
 
 .col4 {
     background: #d9edff;
-    border: 1px solid black;
 }
 
 .col5 {
     background: #ffffcc;
-    border: 1px solid black;
 }
 
 .col6 {
     background: #f5f5f5;
-    border: 1px solid black;
 }
 
 th, td {
@@ -156,9 +151,6 @@ th, td {
     }
 }
 
-body {
-    margin: 0;
-}
 
 div#slider {
     width: 80%;
@@ -174,7 +166,6 @@ div#slider figure img {
 }
 
 div#slider figure {
-    position: relative;
     width: 500%;
     margin: 0;
     padding: 0;
@@ -184,7 +175,7 @@ div#slider figure {
     animation: 30s slidy infinite;
 }
 
-.img1 {
-    display: block;
-    margin: 50px auto 50px auto;
+
+.img1{
+    text-align: center;
 }
